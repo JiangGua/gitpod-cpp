@@ -1,0 +1,13 @@
+image: gitpod/workspace-full
+
+# exposing ports for liveserve
+ports:
+  - port: 5500
+    onOpen: notify
+
+# VSCode extensions
+vscode:
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode/vsextensions/cpptools/1.13.3/vspackage?targetPlatform=linux-x64
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode/vsextensions/cpptools-themes/2.0.0/vspackage  
+    - njpwerner.autodocstring
